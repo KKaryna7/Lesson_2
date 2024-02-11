@@ -28,3 +28,7 @@
 #     print(f"Max: {n3}")
 # elif n3 >= n2 >= n1:
 #     print(f"Max: {n3}")
+#
+# average = (n1 + n2 + n3)/3
+# print(f"Average: {average}")
+#
