@@ -1,4 +1,4 @@
-# task_1
+# # task_1
 # n1 = int(input("Enter first number: "))
 # n2 = int(input("Enter second number: "))
 # n3 = int(input("Enter third number: "))
@@ -32,7 +32,7 @@
 # average = (n1 + n2 + n3)/3
 # print(f"Average: {average}")
 #
-# task_2
+# # task_2
 # number = int(input("Enter number of meters: "))
 # unit = int(input("Enter number, where unit mile = 1, inch = 2, yard = 3: "))
 #
