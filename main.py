@@ -32,3 +32,16 @@
 # average = (n1 + n2 + n3)/3
 # print(f"Average: {average}")
 #
+# task_2
+# number = int(input("Enter number of meters: "))
+# unit = int(input("Enter number, where unit mile = 1, inch = 2, yard = 3: "))
+#
+# if unit > 0 and unit <= 3:
+#     if unit == 1:
+#         print(f"Mile: {number / 1609.344}")
+#     elif unit == 2:
+#         print(f"Inch: {number / 0.0254}")
+#     elif unit == 3:
+#         print(f"Yard: {number / 0.9144}")
+# else:
+#     print("Incorrect unit!")
