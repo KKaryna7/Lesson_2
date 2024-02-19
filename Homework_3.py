@@ -26,3 +26,22 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
+
+# task_2
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    if num1 == num2:
+        print("Numbers are equal!")
+    elif num1 > num2:
+        print(num2, num1)
+    elif num1 < num2:
+        print(num1, num2)
+    else:
+        print("Incorrect numbers!")
+
+except ValueError as error:
+    print("Enter only integer numbers please!")
+    print(f"ValueError: {error}")
+except Exception as e:
+    print(f"Error: {e}")
