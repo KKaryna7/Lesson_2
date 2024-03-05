@@ -93,3 +93,36 @@ except ValueError as error:
     print(f"ValueError: {error}")
 except Exception as error:
     print(f"Exception occurred: {error}")
+
+# first_col = 2
+# second_col = 4
+#
+# if 0 < first_col <= 5 and 0 < second_col <= 5:
+#     for i in range(5):
+#         numbers[i][first_col - 1], numbers[i][second_col - 1] = numbers[i][second_col - 1], numbers[i][first_col - 1]
+# else:
+#     print("Invalid columns!")
+#
+# print()
+# for i in range(5):
+#     for j in range(5):
+#         print(numbers[i][j], end=" ")
+#     print()
+#
+# print()
+# first_row = 2
+# second_row = 4
+#
+# if 0 < first_row <= 5 and 0 < second_row <= 5:
+#     numbers[first_row - 1], numbers[second_row - 1] = numbers[second_row - 1], numbers[first_row - 1]
+#     # print(numbers[first_row - 1])
+#     # print(numbers[second_row - 1])
+# else:
+#     print("Invalid rows!")
+#
+# for i in range(5):
+#     for j in range(5):
+#         print(numbers[i][j], end=" ")
+#     print()
+#
+# print()
